@@ -1,0 +1,176 @@
+body {
+    background-color: #e6f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    width: 100%;
+    font-family: "Bitter", serif;
+}
+
+.container {
+    height: max-content;
+    border-radius: 30px;
+    box-shadow: 2px 5px 5px #cccccc, -1px 7px 5px #cccccc;
+    width: 455px;
+}
+
+.widthImportant {
+    width: 445px !important;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 5px 15px;
+}
+
+.header button {
+    cursor: pointer;
+}
+
+.icon {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.headerText {
+    color: white;
+    font-size: 20px;
+}
+
+.playerContaier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar,
+.avatar1 {
+    position: absolute;
+    top: 130px;
+    left: auto;
+    right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.name {
+    margin-top: 27px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.avatar1 {
+    top: 140px;
+    width: 190px;
+    filter: blur(8px);
+}
+
+.controls {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.controlButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    transition: box-shadow 0.4s;
+}
+
+.controlButton:hover {
+    box-shadow: 3px 3px 5px #cccccc, -3px 0px 5px #cccccc;
+}
+
+.centerButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 7px solid #63ADD0;
+    color: #63ADD0;
+    transition: box-shadow 0.5s;
+}
+
+.progress {
+    margin: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.progressCenter {
+    width: 70%;
+    height: 7px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+
+.progressCenter:hover {
+    cursor: pointer;
+}
+
+.progressBar {
+    width: 0px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: #63ADD0;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.opt {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.4s;
+}
+
+.opt:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #cccccc, -3px 0px 5px #cccccc;
+    color: #147CC0;
+}
