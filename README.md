@@ -1,4 +1,6 @@
-# To run the project
+# Text to speech (TTS) and voice clone with translations using Google translation and Playht API
+
+## To run the project
 
 - Run `npm install` in both client and server
 - create .env in both client and server
