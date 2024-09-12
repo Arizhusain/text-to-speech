@@ -6,11 +6,11 @@
 - create .env in both client and server
 
 ### CLIENT .env
-- VITE_APP_PLAYHT_API_KEY={`your_user_id`}
+- VITE_APP_PLAYHT_API_KEY={`PLAY.HT_USER_ID`}
 
 ### SERVER .env
-- API_KEY={`SECRET_ACCESS_KEY`}
-- USER_ID={`USER_ID`}
+- API_KEY={`PLAY.HT_SECRET_ACCESS_KEY`}
+- USER_ID={`PLAY.HT_USER_ID`}
 
 ### Run project
 - `npm run dev` (client)
